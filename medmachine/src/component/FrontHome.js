@@ -19,7 +19,7 @@ class FrontHome extends React.Component {
         this.setState({
             currentSymptoms: event.target.value,
         })
-    }
+    }    
 
     handleEventSubmitOnEnter = (event) => {
         if(event.keyCode || event.which === 13) {

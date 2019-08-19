@@ -23,7 +23,7 @@ function ModalResponse({jsonFile, process, ...rest}) {
                             <div className="float-right">
                             {"Chance: " + item.Disease.Probability}
                             </div>
-                            </div>
+                               </div>
                             <div id="contents" className="diseasecontents none">
                              <div className="container-modal">
                               <div className="row">

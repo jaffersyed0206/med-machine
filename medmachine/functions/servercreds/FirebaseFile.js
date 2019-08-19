@@ -5,4 +5,4 @@ const init  = admin.initializeApp({
     databaseURL: "https://medicalmachine-c4deb.firebaseio.com"
   });
 
-module.exports = init;
+module.exports = init;   
