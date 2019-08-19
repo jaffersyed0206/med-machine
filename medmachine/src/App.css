@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.home-diagnosis {
+  height: 100vh;
+  background-color: #0D47A1;
+  color: white;
+  padding-top: 150px;
+  font-family: 'Roboto';
+}
+
+.homeTitle {
+  letter-spacing: 8px;
+}
+
+.input-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inputSymptoms {
+  background: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.inputSymptoms::placeholder {
+  color: white;
+}
+
+.submission {
+  background-color: white;
+  color: #0D47A1;
+  font-family: 'Roboto';
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.submission:hover {
+  background-color: #2979FF;
+  color: white;
+}
+
+.modal-response {
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-padding {
+ padding: 150px;
+}
+
+.modal-container {
+  background-color: white;
+  color: #0D47A1;
+  font-family: 'Roboto';
+}
+
+.container-modal {
+  padding: 20px;
+}
+
+.close {
+  color: #0D47A1;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #2979FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.diseasecard{
+  background-color: #0D47A1;
+  color: white;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.diseasecontents {
+  background-color: #1976D2;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.none {
+  display: none
+}
